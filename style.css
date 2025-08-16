@@ -68,6 +68,16 @@ h3 {
 }
 
 /* Skills */
+.skills-category {
+    margin-bottom: 20px;
+}
+
+.skills-category h3 {
+    color: #66ffff;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
 .skills-badges {
     display: flex;
     flex-wrap: wrap;
@@ -81,6 +91,7 @@ h3 {
     font-size: 0.9rem;
     border: 1px solid #00f2ff;
 }
+
 
 /* Footer */
 footer {
@@ -124,7 +135,15 @@ footer p {
 
 /* Responsive */
 @media (max-width: 600px) {
+    .hero {
+        padding: 2rem 1rem; /* less vertical space on small screens */
+    }
     .hero h1 {
-        font-size: 2rem;
+        font-size: 2rem; /* keep text readable */
+    }
+    .hero .tagline {
+        font-size: 1rem;
     }
 }
+
+
