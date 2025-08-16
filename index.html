@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Chawla - Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1 class="fade-in">Aditya Chawla</h1>
+        <p class="tagline fade-in-delay">Aspiring Penetration Tester | Cybersecurity Enthusiast</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Objective -->
+        <section class="fade-in">
+            <h2>About Me</h2>
+            <p>
+                 am a dedicated cybersecurity enthusiast with a strong interest in penetration testing and red teaming.
+                I aim to build a career as a penetration tester to create meaningful impact by identifying vulnerabilities 
+                and helping organizations strengthen their defenses against real-world cyber threats.
+            </p>
+        </section>
+
+        <!-- Projects -->
+        <section class="fade-in">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Detection and Mitigation of DoS Attacks in SDN Environment</h3>
+                    <p>Hybrid approach combining two established methodologies to detect and respond to DoS attacks in SDN.</p>
+                    <ul>
+                        <li>Literature review of existing techniques</li>
+                        <li>Simulation in Mininet environment</li>
+                        <li>Improved detection & response rate</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3>
+                        <a href="https://github.com/yashrustagi2004/Kingfisher" target="_blank">
+                            Phishing Email Detection using NLP
+                        </a>
+                    </h3>
+                    <p>Google Chrome extension for real-time phishing detection using NLP & multilingual analysis.</p>
+                    <ul>
+                        <li>Email header & URL inspection</li>
+                        <li>MERN stack implementation</li>
+                        <li>Multi-lingual translation support</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="fade-in">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>B.Tech CSE, NIIT University</strong> (2022–2026) — CGPA: 8.01
+                    <br>
+                    <em>Relevant Modules:</em> Network Security, Ethical Hacking, VAPT, ISRAA, Threat Intelligence, AI in Cybersecurity
+                </li>
+                <li><strong>XII, DL DAV Model School (CBSE)</strong> — 2022</li>
+                <li><strong>X, DL DAV Model School (CBSE)</strong> — 2020</li>
+            </ul>
+        </section>
+
+
+        <!-- Skills -->
+        <section class="fade-in">
+            <h2>Skills</h2>
+
+            <div class="skills-category">
+                <h3>Languages</h3>
+                <div class="skills-badges">
+                    <span>Python</span>
+                    <span>Bash Scripting</span>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3>Cybersecurity Tools</h3>
+                <div class="skills-badges">
+                    <span>Maltego</span>
+                    <span>Nmap</span>
+                    <span>Burp Suite</span>
+                    <span>Nessus</span>
+                    <span>Metasploit Framework</span>
+                    <span>Wireshark</span>
+                </div>
+            </div>
+        
+            <div class="skills-category">
+                <h3>Database</h3>
+                <div class="skills-badges">
+                    <span>MySQL</span>
+                    <span>MongoDB</span>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3>Operating Systems</h3>
+                <div class="skills-badges">
+                    <span>Linux</span>
+                    <span>MacOS</span>
+                    <span>Windows</span>
+                </div>
+            </div>
+            
+            <div class="skills-category">
+                <h3>Other Tools</h3>
+                <div class="skills-badges">
+                    <span>Mininet</span>
+                    <span>Jenkins</span>
+                    <span>Docker</span>
+                    <span>Jira</span>
+                    <span>Linux</span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Certifications -->
+        <section class="fade-in">
+            <h2>Certification</h2>
+            <p>
+                <a href="https://drive.google.com/file/d/1V_QTFU7qNoRCYtTmV_3lklr-X6AYwgmY/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    Certified Ethical Hacker - E.C. Council
+                </a> — <em>31 July, 2025</em>
+            </p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="fade-in">
+        <p>Aditya Chawla | Cybersecurity Portfolio</p>
+        <div class="social-links">
+            <a href="mailto:aditya.chawla22@st.niituniversity.in"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/Adityachawla1901" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/aditya-chawla-7057bb251" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        // Simple fade-in on scroll
+        const elements = document.querySelectorAll('.fade-in');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        });
+        elements.forEach(el => observer.observe(el));
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
